@@ -1,0 +1,56 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}">
+              <i class="fa fa-envelope"></i> Email
+            </a>
+            {% endif %}
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html %} github
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <!-- <p>{{ site.description | escape }}</p> -->
+        <ul class="social-media-list">
+          <li>
+            <a href="https://www.youtube.com/user/albiebabie91/videos">
+              <i class="fa fa-youtube"></i> youtube
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer-col footer-col-4">
+        <!-- <p>{{ site.description | escape }}</p> -->
+        <ul class="social-media-list">
+          <li>
+            <a href="https://soundcloud.com/albiebabie">
+              <i class="fa fa-soundcloud"></i> soundcloud
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+
+</footer>
